@@ -19,7 +19,7 @@ class Codifica(object):
         else:
             print 1
 
-    def init(self, sp):
+    def verificaNos(self, sp):
         dicioID[sp['xmi:id']] = sp['name']
         dicioParams[sp['name']] = 0
         spaux = sp.contents
