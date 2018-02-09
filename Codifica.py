@@ -1,3 +1,5 @@
+#codigo sem OO, foi dividido em classe apenas para auxiliar na modularização dos scripts
+
 from bs4 import BeautifulSoup as bs
 from RubyMap import MapeamentoRb
 from PythonMap import MapeamentoPy
